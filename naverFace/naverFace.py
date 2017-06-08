@@ -34,8 +34,8 @@ cv2.waitKey(0)
 
 # Naver Face Recognition
 # ========== From ===========
-client_id = "zcsDrRQ9PT6lJNTgDsG2"
-client_secret = "QFQP_vVLpJ"
+client_id = "client_id"
+client_secret = "client_secret"
 # url = "https://openapi.naver.com/v1/vision/face" # 얼굴감지
 url = "https://openapi.naver.com/v1/vision/celebrity" # 유명인 얼굴인식
 files = {'image': open(fileName + '.jpg', 'rb')}
@@ -98,8 +98,8 @@ tts.Speak("이쁘네! " + same + " 닮았네?")
 # ========== End  ==========
 
 # ========== Naver TTS ==========
-tts_client_id = "ssm0fqx7mvk1BlEvuM7_"
-tts_client_secret = "rpqomAYImV"
+tts_client_id = "tts_client_id"
+tts_client_secret = "tts_client_secret"
 
 encText = urllib.parse.quote("이쁘네! " + same + " 닮았네?")
 # encText = urllib.parse.quote(age + "세. " + genderkr + ". " + emotionkr + ".")
